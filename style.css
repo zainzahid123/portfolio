@@ -49,7 +49,9 @@ body {
   justify-content: center;
   align-items: center;
 }
-
+.card-img-top{
+ min-height: 100px!important;
+}
 /* Changing Name Font sixe */
 .main_row h1 {
   font-size: 5rem;
@@ -110,4 +112,13 @@ body {
     line-height: 0.3;
     background: #fff;
   }
+}
+.inner{
+  overflow:hidden;
+}
+.inner img{
+  transition: all 1.5s ease;
+}
+.inner:hover img{
+  transform:scale(1.5);
 }
